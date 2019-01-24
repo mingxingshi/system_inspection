@@ -8,7 +8,7 @@ source /etc/profile
   
 [ $(id -u) -gt 0 ] && echo "请用root用户执行此脚本！" && exit 1
 centosVersion=$(awk '{print $(NF-1)}' /etc/redhat-release)
-VERSION="2017.08.22"
+VERSION="2019.01.24"
   
 #日志相关
 PROGPATH=`echo $0 | sed -e 's,[\\/][^\\/][^\\/]*$,,'`
